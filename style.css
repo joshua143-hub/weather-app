@@ -9,7 +9,7 @@
 }
 
 .banner {
-  color: yellow;
+  color: sky blue;
   font-family: 'Courier New', Courier, monospace;
   position: absolute;
   top: 10px;
@@ -35,7 +35,7 @@ button {
   padding: 5px;
   margin-top: 10px;
   color: white;
-  background-color: rgb(56, 52, 52);
+  background-color: cyan-blue;
   border-radius: 5px;
   width: 15vh;
   position: absolute;
