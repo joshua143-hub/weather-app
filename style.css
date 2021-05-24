@@ -68,7 +68,7 @@ li {
 }
 
 #card-body {
-  border: 1px solid rgb(190, 185, 185);
+  border: 1px solid orange;
   width: 50vw;
   position: absolute;
   left: 50%;
