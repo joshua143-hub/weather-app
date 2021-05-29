@@ -7,7 +7,7 @@ getWeatherdata = (city) => {
  const weatherPromise = fetch(FULL_URL);
   return weatherPromise.then((response) => {
    return response.json();
- })
+ }
 }
 
 
