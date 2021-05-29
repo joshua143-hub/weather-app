@@ -1,4 +1,4 @@
-let API_KEY = "1c322ca3c0bcff4e090a754e8b1b8091";
+let API_KEY = "1c322ca3c0bcff4e090a754e8b1b8091" ;
 
 
 getWeatherdata = (city) => {
@@ -7,7 +7,7 @@ getWeatherdata = (city) => {
  const weatherPromise = fetch(FULL_URL);
   return weatherPromise.then((response) => {
    return response.json();
- }
+ })
 }
 
 
@@ -30,4 +30,4 @@ searchCity = () => {
   document.getElementById('min-temp').innerText = weatherData.main.temp_min;
   document.getElementById('max-temp').innerText = weatherData.main.temp_max;
 
-}
+ }
