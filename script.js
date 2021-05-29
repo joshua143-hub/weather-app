@@ -30,4 +30,4 @@ searchCity = () => {
   document.getElementById('min-temp').innerText = weatherData.main.temp_min;
   document.getElementById('max-temp').innerText = weatherData.main.temp_max;
 
- }
+}
